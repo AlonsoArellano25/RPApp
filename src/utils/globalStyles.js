@@ -3,7 +3,7 @@ import {COLOR_PRINCIPAL_1, COLOR_PRINCIPAL_2} from './colors';
 
 export const globalStyles = StyleSheet.create({
   globalMargin: {
-    marginHorizontal: 20,
+    marginVertical: 20,
   },
   title: {
     color: COLOR_PRINCIPAL_2,

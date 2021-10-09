@@ -57,7 +57,7 @@ const Login = () => {
           <Button
             text="Ingresar"
             style={styles.button}
-            onPress={console.log('Click')}
+            onPress={() => console.log('Click')}
           />
           <GoogleSigninButton
             style={styles.googleButton}

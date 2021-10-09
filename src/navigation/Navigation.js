@@ -5,6 +5,7 @@ import {AuthContext} from '../context/AuthContext';
 import Loading from '../components/Loading';
 import Stores from '../screens/Stores';
 import Profile from '../screens/Profile';
+import Store from '../screens/Store';
 
 const Stack = createStackNavigator();
 
@@ -30,6 +31,7 @@ export const Navigation = () => {
         <>
           <Stack.Screen name="Stores" component={Stores} />
           <Stack.Screen name="Profile" component={Profile} />
+          <Stack.Screen name="Store" component={Store} />
         </>
       )}
     </Stack.Navigator>

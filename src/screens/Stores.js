@@ -23,8 +23,8 @@ export default function Stores() {
   return (
     <View style={globalStyles.container}>
       <Header />
-
       <Text style={styles.title}>Listado de sucursales</Text>
+
       {isLoading ? <Loading /> : <StoresList stores={stores} />}
     </View>
   );
